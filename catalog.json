@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-26T18:38:01.616Z",
+  "publishedAt": "2026-10-26T18:38:53.387Z",
   "launcher": {
     "version": "0.1.0"
   },
@@ -24,7 +24,7 @@
   ],
   "links": {
     "news": "",
-    "discord": "",
+    "discord": "https://discord.gg/pCjPx2c5s6",
     "support": "",
     "curseforge": "https://www.curseforge.com/wow/addons/warchiefs-war-diary",
     "github": "https://github.com/NolvusMadeIt"
