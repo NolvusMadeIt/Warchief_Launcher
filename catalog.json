@@ -1,0 +1,167 @@
+{
+  "schema": 1,
+  "publishedAt": "2026-10-26T17:38:37.341Z",
+  "launcher": {
+    "version": "0.1.0"
+  },
+  "games": [
+    {
+      "id": "retail",
+      "name": "Retail",
+      "short": "Retail",
+      "title": "World of Warcraft Retail",
+      "folder": "_retail_",
+      "badge": "R"
+    },
+    {
+      "id": "forever",
+      "name": "WoW: Forever",
+      "short": "Forever",
+      "title": "World of Warcraft: Forever",
+      "folder": "_classic_beta_",
+      "badge": "F"
+    }
+  ],
+  "links": {
+    "news": "",
+    "discord": "",
+    "support": "",
+    "curseforge": "https://www.curseforge.com/wow/addons/warchiefs-war-diary",
+    "github": "https://github.com/NolvusMadeIt"
+  },
+  "news": [
+    {
+      "id": "n1",
+      "title": "Warchief Testers Wated",
+      "body": "Help shape the next guides. Be sure to check back for testing out our addons and plugins for an announcements",
+      "linkLabel": "Join the Discord",
+      "link": "discord",
+      "updated": "2026-10-26T17:37:07.264Z",
+      "date": "2026-10-26T17:37:07.264Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "wwd",
+      "name": "Warchiefs War Diary",
+      "short": "WD",
+      "icon": "logo",
+      "type": "main",
+      "requires": null,
+      "game": "retail",
+      "repo": "NolvusMadeIt/Warchiefs_Diary_WoW_AddOn",
+      "enabled": true,
+      "changelogUrl": "https://www.curseforge.com/wow/addons/warchiefs-war-diary",
+      "release": {
+        "tag": "v1.5.7b",
+        "version": "1.5.7b",
+        "name": "Warchiefs War Diary 1.5.7b",
+        "prerelease": false,
+        "publishedAt": "2026-10-25T01:52:01Z",
+        "asset": "Warchiefs_War_Diary-1.5.7b.zip",
+        "size": 1227948,
+        "url": "https://github.com/NolvusMadeIt/Warchiefs_Diary_WoW_AddOn/releases/download/v1.5.7b/Warchiefs_War_Diary-1.5.7b.zip",
+        "folders": [
+          "Warchiefs_War_Diary",
+          "Warchiefs_War_Diary_CommunityGuides",
+          "Warchiefs_War_Diary_GuideBuilder"
+        ],
+        "mainFolder": "Warchiefs_War_Diary",
+        "tocVersion": "1.5.7b",
+        "interface": "120105",
+        "notes": "# Warchiefs War Diary\n\n**Your leveling companion for Retail World of Warcraft (Midnight, 12.1.5).** Step-by-step leveling guides, a restyled quest tracker, a GPS arrow with a world pin, quest automation and quest sounds, all in a clean Blizzard-style window. Light on performance, with no idle update loops.\n\n---\n\n## ⚔ What's New in This Update\n\n### 1.5.7d\n- \"Fast Pace Guides\" is now called **Community Guides** everywhere.\n- A rounded, gold-rimmed ON/OFF pill switch under the nav bar.\n- Arrow fix: on an \"Unlock first\" step, or one with no stored spot, the arrow now points at your first tracked quest instead of disappearing.\n\n### 1.5.7b\n- **Title progress bars**: a green \"Earned\" bar for titles you hold, and a live count (for example 12 / 50) for titles in progress.\n- Favorite stars show on the Current tab too.\n- The tracker's scroll bar sits inside the tracker and uses a slim Blizzard scroll bar. Guide rows stop above the Level bar.\n- Round class icons on Home, with a gold ring on your own class.\n- A slimmer Suggested Guides panel with a round play button on each guide.\n- **Big performance fix**: opening Recent or Favorites, or switching tabs, no longer rebuilds every guide list. This removes multi-second frame drops.\n- Colour-coded how-to lines under each quest's objectives (enemies, things to use, NPCs, places).\n- Clearer tracker tabs, a guide map picture that opens the world map on that zone, and a window sized to your screen.\n- Fixed the minimap button opening Options on its first click after a reload.\n\n### 1.5.7a\n- How-to tips under the current step for every quest in the Dragonflight guides.\n\n### Also in this update (1.5.4 to 1.5.6z)\n- **Step arrows on the tracker**: page back and forward through a guide (\"Step N / total\"); Shift-click jumps ten steps, right-click jumps to the next step you haven't done. Every step keeps its number, finished ones included.\n- **The guide's current step in the tracker**, with a progress bar, \"Talk to\", \"Accept\" and \"Complete\" lines, and per-tab steps when you switch tracker tabs.\n- **How-to tips** under the current step for every quest in The War Within and Dragonflight guides.\n- **Steps only send you where the game really offers a quest.** Otherwise the step says \"Unlock first\" and why (the quest that opens it, the level it needs, or where to go).\n- **Many new leveling guides**, built from Blizzard's storyline data: Starter zones, Allied Races, Boosted Characters, Classic, The Burning Crusade, Wrath, Cataclysm, Pandaria, Draenor, Legion, Battle for Azeroth, Shadowlands, Dragonflight, The War Within and Midnight, plus Midnight Speed Leveling.\n- Midnight guides checked and fixed quest by quest, with 110 quests added.\n- **Suggested Guides** on Home, including a Live events folder (today's holidays, bonus objectives and timed zone events), plus a search that covers every guide, quest name and quest ID.\n- **Community Guides**: import a guide by pasting a text string, and export guides to share.\n- Quest item buttons on the tracker's guide steps.\n- A new window look in Blizzard's Professions style, with a portrait, status bar, search box and Filter button, and an ON/OFF switch that turns the whole addon off.\n- A faster one-line guide list, a resizable divider between the list and the details, and smoother window resizing.\n- Scenario stages, timers and widget bars no longer draw over the tracker footer.\n- A Report a Bug / Suggestion page in Options (/wwd bug).\n\n---\n\n## ✦ Leveling Guides\n- **Built-in guides for every era**: Starter zones, Allied Races, Boosted characters, Classic, Burning Crusade, Wrath, Cataclysm, Pandaria, Warlords, Legion, BfA, Shadowlands, Dragonflight, The War Within and Midnight.\n- **How-to tips** under the current step for every quest in the Dragonflight and The War Within guides.\n- **Fixed step numbers**: every quest in the guide stays in order, finished ones included. Page back and forth with the step arrows (Shift-click moves 10 steps, right-click jumps to the next or previous unfinished step).\n- **Suggested Guides**: a parchment page that lists guides suited to you right now, with a smart search over guide names, folders, zones, quest names and quest IDs (`/wwd suggest`).\n- **Guide browser**: Recent, Favorites (gold stars), Current, folders, per-guide details and a map picture that opens the world map on that zone.\n\n## ✦ Tracker\n- A restyled objective tracker with guide tabs, a level bar, a guide progress bar and a **Steps Completed** count.\n- Every step shows all of its lines with Blizzard icons: talk to, accept (**!**) and turn in (**?**). Click a line to set the waypoint.\n- Colour-coded how-to lines under each quest's objectives (enemies, things to use, NPCs, places).\n- A compact step bar that shows the turn-ins you can hand in right now.\n\n## ✦ Navigation\n- A GPS arrow with a world pin that follows the current step, and falls back to a quest in your log when a step has no stored spot.\n\n## ✦ Quality of Life\n- Quest automation and quest sounds.\n- Title progress bars, read straight from each title's achievement.\n- Window size follows your screen, with a minimap button and a \"what's new\" popup.\n\n---\n\n## Slash commands\n| Command | Action |\n|---|---|\n| `/wwd` | Open the War Diary window |\n| `/wwd options` | Settings |\n| `/wwd suggest` | Suggested Guides |\n| `/wwd guides` | Guides |\n| `/wwd on` / `/wwd off` | Turn War Diary on or off |\n| `/wwd minimap` | Show or hide the minimap button |\n| `/wwd version` | Print the version |\n| `/wwd commands` | List all commands |\n| `/wwd debug`, `/wwd bug` | Debug info and bug report |\n\n## 🎁 Included free: Community Guides\nComes in the same download (folder `Warchiefs_War_Diary_CommunityGuides`) and shows as **Community Guides** in the War Diary window.\n- **Import** a guide by pasting a guide string: War Diary's own format, or plain-text guides written in the common \"step\" syntax.\n- **Export** any imported guide as a string to share with friends.\n- **Load, skip steps and delete** imported guides. Importing a guide you already have updates it instead of making a copy.\n- Guide types: leveling, campaign, holiday, profession, dungeon, reputation and other.\n- Steps advance by themselves from your real quest progress. Guides are saved account-wide, while your followed guide and skips are per character.\n- Safe by design: packed or encrypted strings are refused, never decoded, and a damaged guide can't break the addon.\n\n## 🎁 Included free: Guide Builder\nComes in the same download (folder `Warchiefs_War_Diary_GuideBuilder`). Write your own guides in game, then share them through Community Guides.\n- Opens inside the War Diary window under Community Guides, from the **New guide** row, from **Edit** on any imported guide, or with `/wwdbuild` (`/wwdbuild new` starts a blank guide).\n- Build guides from steps and chapters, with about 30 step types (accept, complete, turn in, go to, talk to, kill, loot, use item, fly, hearth, portal, scenario, treasure and more), quest IDs, coordinates and icons.\n- Undo and redo, a gap check, guide merging, versioned saves, and export and import.\n- **Route recorder**: `/wwdrec` records steps while you quest. Every recorded step is a normal editor step you can edit, move or delete. Commands: `/wwdrec start`, `stop`, `button` (floating record button), `note <text>`, `here` (add a waypoint), `item <id>`, `edit`. It only listens for events while recording.\n\n## Installing\nExtract all three folders in the zip (`Warchiefs_War_Diary`, `Warchiefs_War_Diary_CommunityGuides`, `Warchiefs_War_Diary_GuideBuilder`) into `World of Warcraft\\_retail_\\Interface\\AddOns\\`. **Restart the game fully** after installing or updating (new files are not picked up by `/reload`).\n\n**Requirements:** Retail World of Warcraft (Interface 120105). Author: TankyShrimp.\n"
+      },
+      "beta": null
+    },
+    {
+      "id": "compass",
+      "name": "War Diary - Compass",
+      "short": "CP",
+      "icon": "badge",
+      "type": "plugin",
+      "requires": "wwd",
+      "game": "retail",
+      "repo": "NolvusMadeIt/Warchiefs_Diary_Compass",
+      "enabled": true,
+      "changelogUrl": "",
+      "release": {
+        "tag": "v1.4.9e",
+        "version": "1.4.9e",
+        "name": "Warchiefs War Diary - Compass 1.4.9e",
+        "prerelease": false,
+        "publishedAt": "2026-10-25T01:52:22Z",
+        "asset": "Warchiefs_War_Diary_Compass-1.4.9e.zip",
+        "size": 20363,
+        "url": "https://github.com/NolvusMadeIt/Warchiefs_Diary_Compass/releases/download/v1.4.9e/Warchiefs_War_Diary_Compass-1.4.9e.zip",
+        "folders": [
+          "Warchiefs_War_Diary_Compass"
+        ],
+        "mainFolder": "Warchiefs_War_Diary_Compass",
+        "tocVersion": "1.4.9e",
+        "interface": "120105",
+        "notes": "# Warchiefs War Diary - Compass\n\n**A compass strip across the top of your screen.** It shows the world map's icons and the NPC services you have found, so you always know which way to turn.\n\n> ⚠ **This plugin ONLY works with the main addon, [Warchiefs War Diary](https://www.curseforge.com/wow/addons/warchiefs-war-diary).** Install Warchiefs War Diary first. Without it, this plugin does nothing.\n\n<a href=\"https://www.curseforge.com/wow/addons/warchiefs-war-diary\"><img src=\"https://i.imgur.com/1n52YZE.png\" alt=\"Get Warchiefs War Diary\" height=\"34\"></a>\n\n---\n\n## ✦ Features\n- **Map icons on a compass**: quests, NPCs, places, vignettes and flight paths, each with its distance.\n- **Learned NPC services**: the vendors and trainers you have met show on the strip.\n- **Centre-icon name**: the name of whatever sits in the middle of the strip, taken from the game's own data. It fades smoothly when the icon changes. A group shows its nearest member and a +n count.\n- **Large, clear icons**: icon size from 20 to 40 (32 by default) and a centre icon at up to 300% size.\n- **No overlaps**: distance labels, +n badges and the name each get their own line.\n- **Stays out of the way**: the strip moves below Blizzard's top-centre widget bar while it shows, and moves back when the bar is empty.\n- **Light on performance**: it reuses its frames and tables, so it creates no per-frame garbage.\n- Names that the game marks as secret are never shown.\n\n## ✦ Settings\nIn the War Diary window under **Plugins > Compass**: icon size, centre icon size, name on or off, name size, name position (above or below), distance from the top, and staying below the top-centre bar.\n\n## Slash commands\n| Command | Action |\n|---|---|\n| `/wwd compass` | Toggle the compass |\n| `/wwd compass on` / `off` | Turn it on or off |\n| `/wwd compass options` | Open its settings |\n\n## Requirements\n- [**Warchiefs War Diary**](https://www.curseforge.com/wow/addons/warchiefs-war-diary) (the main addon) is **required**. This plugin will not work without it.\n- Retail World of Warcraft (Interface 120105).\n\n## Installing\nExtract the folder into `World of Warcraft\\_retail_\\Interface\\AddOns\\` and restart the game fully. Your settings and learned NPC spots are copied over once from War Diary.\n"
+      },
+      "beta": null
+    },
+    {
+      "id": "journal",
+      "name": "War Diary - Journal",
+      "short": "JN",
+      "icon": "badge",
+      "type": "plugin",
+      "requires": "wwd",
+      "game": "retail",
+      "repo": "NolvusMadeIt/Warchiefs_Diary_Journal",
+      "enabled": true,
+      "changelogUrl": "",
+      "release": {
+        "tag": "v1.2.0",
+        "version": "1.2.0",
+        "name": "Warchiefs War Diary - Journal 1.2.0",
+        "prerelease": false,
+        "publishedAt": "2026-10-25T01:52:31Z",
+        "asset": "Warchiefs_War_Diary_Journal-1.2.0.zip",
+        "size": 29007,
+        "url": "https://github.com/NolvusMadeIt/Warchiefs_Diary_Journal/releases/download/v1.2.0/Warchiefs_War_Diary_Journal-1.2.0.zip",
+        "folders": [
+          "Warchiefs_War_Diary_Journal"
+        ],
+        "mainFolder": "Warchiefs_War_Diary_Journal",
+        "tocVersion": "1.2.0",
+        "interface": "120105",
+        "notes": "# Warchiefs War Diary - Journal\n\n**Your adventure, written down.** Each character keeps a diary of every quest, level, zone, achievement and boss, plus the quests of the zone you are in and a quest search.\n\n> ⚠ **This plugin ONLY works with the main addon, [Warchiefs War Diary](https://www.curseforge.com/wow/addons/warchiefs-war-diary).** Install Warchiefs War Diary first. Without it, this plugin does nothing.\n\n<a href=\"https://www.curseforge.com/wow/addons/warchiefs-war-diary\"><img src=\"https://i.imgur.com/1n52YZE.png\" alt=\"Get Warchiefs War Diary\" height=\"34\"></a>\n\n---\n\n## ✦ The Diary\n- **A collection-style window** with a stone border, a parchment inset and one tab per area (Argus, Broken Isles, Dragon Isles...). When there are too many tabs, a **>** tab lists the rest.\n- **A paged 3 x 6 grid**, newest first. Turn pages with the mouse wheel. Hover an entry to see its kind, zone, level and time, and click a quest to see its details.\n- **Search and filters**: search by text or zone, and filter by kind and by zone.\n\n## ✦ The Journal Window\n- An open-book window in the style of the Professions book, with a how-to **i** button. You can drag it, and Escape closes it.\n- At-a-glance rows: **Diary**, **Quest log** (quests ready to turn in), **Quests & Levels**, **Dungeons & Bosses**, **Discoveries & Achievements** and **Events & Deaths**.\n- **Quest search** across the quest data.\n\n## ✦ Performance\nEvent-driven only, with no OnUpdate and no timer loops. Windows are built the first time you open them and only listen to events while they are open.\n\n## Slash commands\n| Command | Action |\n|---|---|\n| `/wwd journal` | Open the Journal window |\n| `/wwd diary` | Open the Journal window |\n| `/wwd journal zone` | Open the zone's quest tab |\n\n## Requirements\n- [**Warchiefs War Diary**](https://www.curseforge.com/wow/addons/warchiefs-war-diary) (the main addon) is **required**. This plugin will not work without it.\n- Retail World of Warcraft (Interface 120105).\n\n## Installing\nExtract the folder into `World of Warcraft\\_retail_\\Interface\\AddOns\\` and restart the game fully. Your existing records are copied once per character from War Diary.\n"
+      },
+      "beta": null
+    },
+    {
+      "id": "todo",
+      "name": "War Diary - ToDo",
+      "short": "TD",
+      "icon": "badge",
+      "type": "plugin",
+      "requires": "wwd",
+      "game": "retail",
+      "repo": "NolvusMadeIt/Warchiefs_Diary_ToDo",
+      "enabled": true,
+      "changelogUrl": "",
+      "release": {
+        "tag": "v1.1.1",
+        "version": "1.1.1",
+        "name": "Warchiefs War Diary - To-Do List 1.1.1",
+        "prerelease": false,
+        "publishedAt": "2026-10-25T01:52:39Z",
+        "asset": "Warchiefs_War_Diary_ToDo-1.1.1.zip",
+        "size": 13501,
+        "url": "https://github.com/NolvusMadeIt/Warchiefs_Diary_ToDo/releases/download/v1.1.1/Warchiefs_War_Diary_ToDo-1.1.1.zip",
+        "folders": [
+          "Warchiefs_War_Diary_ToDo"
+        ],
+        "mainFolder": "Warchiefs_War_Diary_ToDo",
+        "tocVersion": "1.1.1",
+        "interface": "120105",
+        "notes": "# Warchiefs War Diary - To-Do List\n\n**Your to-do list and notes in one window.** See what is waiting for you right now, and keep your own notes in categories with icons, links and drag and drop.\n\n> ⚠ **This plugin ONLY works with the main addon, [Warchiefs War Diary](https://www.curseforge.com/wow/addons/warchiefs-war-diary).** Install Warchiefs War Diary first. Without it, this plugin does nothing.\n\n<a href=\"https://www.curseforge.com/wow/addons/warchiefs-war-diary\"><img src=\"https://i.imgur.com/1n52YZE.png\" alt=\"Get Warchiefs War Diary\" height=\"34\"></a>\n\n---\n\n## ✦ Right Now\nUpdates by itself: quests ready to turn in and guides you haven't finished, each with a progress bar.\n\n## ✦ Notes and Categories\n- **A navigation list** with collapsible categories. Create, rename and delete categories.\n- **Full notes**: a title, a large scrolling text area, a **Done** check box and **Delete**.\n- **Note icons**: pick any icon from the same set the macro window uses.\n- **Icons in the text**: **Insert Icon** places an icon at the cursor.\n- **Game links**: shift-click an item, spell or achievement to add its link. Hover it in the read view to see its game tooltip.\n- **Read and edit modes**: notes open for reading, and **Edit** switches to writing.\n- **Drag and drop**: move notes between categories, or drag a *Right now* line onto a category to turn it into a note.\n\n## ✦ Look\nA Professions-style window with a list on the left, the note on the right and a Blizzard-style help button.\n\n## Slash commands\n| Command | Action |\n|---|---|\n| `/wwd todo` | Open the To-Do List |\n\n## Requirements\n- [**Warchiefs War Diary**](https://www.curseforge.com/wow/addons/warchiefs-war-diary) (the main addon) is **required**. This plugin will not work without it.\n- Retail World of Warcraft (Interface 120105).\n\n## Installing\nExtract the folder into `World of Warcraft\\_retail_\\Interface\\AddOns\\` and restart the game fully. Your existing to-do lines move into a **General** category the first time you open the window.\n"
+      },
+      "beta": null
+    }
+  ]
+}
