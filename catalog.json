@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-26T17:38:37.341Z",
+  "publishedAt": "2026-10-26T18:38:01.616Z",
   "launcher": {
     "version": "0.1.0"
   },
@@ -32,11 +32,11 @@
   "news": [
     {
       "id": "n1",
-      "title": "Warchief Testers Wated",
+      "title": "Warchief Testers Wanted",
       "body": "Help shape the next guides. Be sure to check back for testing out our addons and plugins for an announcements",
       "linkLabel": "Join the Discord",
       "link": "discord",
-      "updated": "2026-10-26T17:37:07.264Z",
+      "updated": "2026-10-26T18:37:06.539Z",
       "date": "2026-10-26T17:37:07.264Z"
     }
   ],
@@ -77,7 +77,7 @@
       "id": "compass",
       "name": "War Diary - Compass",
       "short": "CP",
-      "icon": "badge",
+      "icon": "logo",
       "type": "plugin",
       "requires": "wwd",
       "game": "retail",
@@ -107,7 +107,7 @@
       "id": "journal",
       "name": "War Diary - Journal",
       "short": "JN",
-      "icon": "badge",
+      "icon": "logo",
       "type": "plugin",
       "requires": "wwd",
       "game": "retail",
@@ -137,7 +137,7 @@
       "id": "todo",
       "name": "War Diary - ToDo",
       "short": "TD",
-      "icon": "badge",
+      "icon": "logo",
       "type": "plugin",
       "requires": "wwd",
       "game": "retail",
