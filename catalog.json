@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-27T03:18:00.528Z",
+  "publishedAt": "2026-10-27T06:51:56.305Z",
   "launcher": {
     "version": "0.1.0"
   },
@@ -180,5 +180,63 @@
     ],
     "invite": "https://discord.gg/pCjPx2c5s6",
     "bugReports": true
-  }
+  },
+  "tickets": {
+    "categoryId": "1564527436211818567",
+    "logChannelId": "1564527394323435671",
+    "staffRoles": [
+      "1564352290221985902",
+      "1564353338105929810"
+    ],
+    "pingStaff": true,
+    "types": [
+      {
+        "id": "help",
+        "label": "Get Support",
+        "emoji": "❓",
+        "style": "success",
+        "welcome": "Thanks for reaching out! A member of the Warchief team will be with you soon. Add anything else that helps, like screenshots, while you wait.",
+        "questions": [
+          {
+            "label": "What do you need help with?",
+            "style": "paragraph",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "id": "bug",
+        "label": "Report a bug",
+        "emoji": "🐛",
+        "style": "danger",
+        "welcome": "Thanks for the report! A member of the Warchief team will look at it soon. Screenshots or your support info (launcher: Options → Support) help a lot.",
+        "questions": [
+          {
+            "label": "Which addon or plugin?",
+            "style": "short",
+            "required": true,
+            "placeholder": "War Diary, Compass, Journal, ToDo…"
+          },
+          {
+            "label": "What happened?",
+            "style": "paragraph",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "label": "How can we make it happen again?",
+            "style": "paragraph",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      }
+    ],
+    "panel": {
+      "title": "Need help?",
+      "description": "Press a button below to open a private ticket with the Warchief team."
+    }
+  },
+  "todo": []
 }
