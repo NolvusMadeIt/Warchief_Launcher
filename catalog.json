@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-27T02:25:16.013Z",
+  "publishedAt": "2026-10-27T03:18:00.528Z",
   "launcher": {
     "version": "0.1.0"
   },
@@ -163,5 +163,22 @@
       },
       "beta": null
     }
-  ]
+  ],
+  "access": {
+    "enabled": true,
+    "service": "https://warchief-access.vercel.app",
+    "memberRoles": [
+      "1564354159191400639",
+      "1564362388260782150",
+      "1564363328686653481",
+      "1564353338105929810",
+      "1564352290221985902"
+    ],
+    "testerRoles": [
+      "1564362388260782150",
+      "1564352290221985902"
+    ],
+    "invite": "https://discord.gg/pCjPx2c5s6",
+    "bugReports": true
+  }
 }
