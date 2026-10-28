@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-28T01:23:33.433Z",
+  "publishedAt": "2026-10-28T10:10:04.499Z",
   "launcher": {
-    "version": "0.2.0"
+    "version": "2.1.0"
   },
   "games": [
     {
@@ -170,6 +170,100 @@
         "notes": "# Warchiefs War Diary - To-Do List\n\n**Your to-do list and notes in one window.** See what is waiting for you right now, and keep your own notes in categories with icons, links and drag and drop.\n\n> ⚠ **This plugin ONLY works with the main addon, [Warchiefs War Diary](https://www.curseforge.com/wow/addons/warchiefs-war-diary).** Install Warchiefs War Diary first. Without it, this plugin does nothing.\n\n<a href=\"https://www.curseforge.com/wow/addons/warchiefs-war-diary\"><img src=\"https://i.imgur.com/1n52YZE.png\" alt=\"Get Warchiefs War Diary\" height=\"34\"></a>\n\n---\n\n## ✦ Right Now\nUpdates by itself: quests ready to turn in and guides you haven't finished, each with a progress bar.\n\n## ✦ Notes and Categories\n- **A navigation list** with collapsible categories. Create, rename and delete categories.\n- **Full notes**: a title, a large scrolling text area, a **Done** check box and **Delete**.\n- **Note icons**: pick any icon from the same set the macro window uses.\n- **Icons in the text**: **Insert Icon** places an icon at the cursor.\n- **Game links**: shift-click an item, spell or achievement to add its link. Hover it in the read view to see its game tooltip.\n- **Read and edit modes**: notes open for reading, and **Edit** switches to writing.\n- **Drag and drop**: move notes between categories, or drag a *Right now* line onto a category to turn it into a note.\n\n## ✦ Look\nA Professions-style window with a list on the left, the note on the right and a Blizzard-style help button.\n\n## Slash commands\n| Command | Action |\n|---|---|\n| `/wwd todo` | Open the To-Do List |\n\n## Requirements\n- [**Warchiefs War Diary**](https://www.curseforge.com/wow/addons/warchiefs-war-diary) (the main addon) is **required**. This plugin will not work without it.\n- Retail World of Warcraft (Interface 120105).\n\n## Installing\nExtract the folder into `World of Warcraft\\_retail_\\Interface\\AddOns\\` and restart the game fully. Your existing to-do lines move into a **General** category the first time you open the window.\n"
       },
       "beta": null
+    },
+    {
+      "id": "warchiefs-diary-community-guides",
+      "name": "Warchiefs Diary Community Guides",
+      "short": "WD",
+      "icon": "badge",
+      "type": "plugin",
+      "requires": "wwd",
+      "game": "retail",
+      "repo": "NolvusMadeIt/Warchiefs_Diary_CommunityGuides",
+      "enabled": true,
+      "changelogUrl": "",
+      "release": {
+        "tag": "v1.0.0",
+        "version": "1.0.0",
+        "name": "Warchiefs War Diary - Community Guides 1.0.0",
+        "prerelease": false,
+        "publishedAt": "2026-10-28T04:37:31Z",
+        "asset": "Warchiefs_War_Diary_CommunityGuides-1.0.0.zip",
+        "size": 23337,
+        "url": "https://github.com/NolvusMadeIt/Warchiefs_Diary_CommunityGuides/releases/download/v1.0.0/Warchiefs_War_Diary_CommunityGuides-1.0.0.zip",
+        "folders": [
+          "Warchiefs_War_Diary_CommunityGuides"
+        ],
+        "mainFolder": "Warchiefs_War_Diary_CommunityGuides",
+        "tocVersion": "1.0.0",
+        "interface": "120105",
+        "notes": "# Warchiefs War Diary - Community Guides\n\n**Import guides from a guide string**, then export, load, skip and delete them. Shows as **Community Guides** in the War Diary window.\n\n---\n\n## ✦ What's New in 1.0.0\n- First release as its own plugin folder.\n\n## ✦ Features\n- **Import** a guide by pasting a guide string: War Diary's own format, or plain-text guides written in the common \"step\" syntax.\n- **Export** any imported guide as a string to share with friends.\n- **Load, skip steps and delete** imported guides. Importing a guide you already have updates it instead of making a copy.\n- Guide types: leveling, campaign, holiday, profession, dungeon, reputation and other.\n- Steps advance by themselves from your real quest progress. Guides are saved account-wide, while your followed guide and skips are per character.\n- Safe by design: packed or encrypted strings are refused, never decoded, and a damaged guide can't break the addon.\n\n## Requirements\n- **Warchiefs War Diary** (the main addon) is **required**. Without it, this plugin does nothing.\n- Keeping this plugin and War Diary updated requires the **Warchief Launcher**: **[Download Warchief Launcher](https://github.com/NolvusMadeIt/Warchief_Launcher/releases/download/v2.0.0/Warchief-Launcher-Setup.exe)**\n- Retail World of Warcraft (Interface 120105).\n\n## Installing\nExtract the folder into `World of Warcraft\\_retail_\\Interface\\AddOns\\` and restart the game fully.\r\n"
+      },
+      "beta": {
+        "tag": "v1.0.0",
+        "version": "1.0.0",
+        "name": "Warchiefs War Diary - Community Guides 1.0.0",
+        "prerelease": false,
+        "publishedAt": "2026-10-28T04:37:31Z",
+        "asset": "Warchiefs_War_Diary_CommunityGuides-1.0.0.zip",
+        "size": 23337,
+        "url": "https://github.com/NolvusMadeIt/Warchiefs_Diary_CommunityGuides/releases/download/v1.0.0/Warchiefs_War_Diary_CommunityGuides-1.0.0.zip",
+        "folders": [
+          "Warchiefs_War_Diary_CommunityGuides"
+        ],
+        "mainFolder": "Warchiefs_War_Diary_CommunityGuides",
+        "tocVersion": "1.0.0",
+        "interface": "120105",
+        "notes": "# Warchiefs War Diary - Community Guides\n\n**Import guides from a guide string**, then export, load, skip and delete them. Shows as **Community Guides** in the War Diary window.\n\n---\n\n## ✦ What's New in 1.0.0\n- First release as its own plugin folder.\n\n## ✦ Features\n- **Import** a guide by pasting a guide string: War Diary's own format, or plain-text guides written in the common \"step\" syntax.\n- **Export** any imported guide as a string to share with friends.\n- **Load, skip steps and delete** imported guides. Importing a guide you already have updates it instead of making a copy.\n- Guide types: leveling, campaign, holiday, profession, dungeon, reputation and other.\n- Steps advance by themselves from your real quest progress. Guides are saved account-wide, while your followed guide and skips are per character.\n- Safe by design: packed or encrypted strings are refused, never decoded, and a damaged guide can't break the addon.\n\n## Requirements\n- **Warchiefs War Diary** (the main addon) is **required**. Without it, this plugin does nothing.\n- Keeping this plugin and War Diary updated requires the **Warchief Launcher**: **[Download Warchief Launcher](https://github.com/NolvusMadeIt/Warchief_Launcher/releases/download/v2.0.0/Warchief-Launcher-Setup.exe)**\n- Retail World of Warcraft (Interface 120105).\n\n## Installing\nExtract the folder into `World of Warcraft\\_retail_\\Interface\\AddOns\\` and restart the game fully.\r\n"
+      },
+      "access": "testers"
+    },
+    {
+      "id": "warchiefs-diary-guidebuilder",
+      "name": "Warchiefs Diary GuideBuilder",
+      "short": "WD",
+      "icon": "badge",
+      "type": "plugin",
+      "requires": "wwd",
+      "game": "retail",
+      "repo": "NolvusMadeIt/Warchiefs_Diary_GuideBuilder",
+      "enabled": true,
+      "changelogUrl": "",
+      "release": {
+        "tag": "v1.1.1",
+        "version": "1.1.1",
+        "name": "Warchiefs War Diary - Guide Builder 1.1.1",
+        "prerelease": false,
+        "publishedAt": "2026-10-28T04:37:35Z",
+        "asset": "Warchiefs_War_Diary_GuideBuilder-1.1.1.zip",
+        "size": 42991,
+        "url": "https://github.com/NolvusMadeIt/Warchiefs_Diary_GuideBuilder/releases/download/v1.1.1/Warchiefs_War_Diary_GuideBuilder-1.1.1.zip",
+        "folders": [
+          "Warchiefs_War_Diary_GuideBuilder"
+        ],
+        "mainFolder": "Warchiefs_War_Diary_GuideBuilder",
+        "tocVersion": "1.1.1",
+        "interface": "120105",
+        "notes": "# Warchiefs War Diary - Guide Builder\n\n**Write, record and edit Community Guides in game.** Open with `/wwdbuild`; record a route while you quest with `/wwdrec`.\n\n---\n\n## ✦ What's New in 1.1.1\n- Release build of the in-game guide editor and route recorder.\n\n## ✦ Editor\n- Opens inside the War Diary window under Community Guides, from the **New guide** row, from **Edit** on any imported guide, or with `/wwdbuild` (`/wwdbuild new` starts a blank guide).\n- Build guides from steps and chapters, with about 30 step types (accept, complete, turn in, go to, talk to, kill, loot, use item, fly, hearth, portal, scenario, treasure and more), quest IDs, coordinates and icons.\n- Undo and redo, a gap check, guide merging, versioned saves, and export and import.\n\n## ✦ Route recorder\n- `/wwdrec` records steps while you quest. Every recorded step is a normal editor step you can edit, move or delete.\n- Commands: `/wwdrec start`, `stop`, `button` (floating record button), `note <text>`, `here` (add a waypoint), `item <id>`, `edit`.\n- It only listens for events while recording.\n\n## Slash commands\n| Command | Action |\n|---|---|\n| `/wwdbuild` | Open Guide Builder |\n| `/wwdbuild new` | Start a blank guide |\n| `/wwdrec` | Route recorder (start / stop / button / note / here / item / edit) |\n\n## Requirements\n- **Warchiefs War Diary** (the main addon) is **required**.\n- **Warchiefs War Diary - Community Guides** is **required**.\n- Keeping this plugin and War Diary updated requires the **Warchief Launcher**: **[Download Warchief Launcher](https://github.com/NolvusMadeIt/Warchief_Launcher/releases/download/v2.0.0/Warchief-Launcher-Setup.exe)**\n- Retail World of Warcraft (Interface 120105).\n\n## Installing\nExtract the folder into `World of Warcraft\\_retail_\\Interface\\AddOns\\` and restart the game fully.\r\n"
+      },
+      "beta": {
+        "tag": "v1.1.1",
+        "version": "1.1.1",
+        "name": "Warchiefs War Diary - Guide Builder 1.1.1",
+        "prerelease": false,
+        "publishedAt": "2026-10-28T04:37:35Z",
+        "asset": "Warchiefs_War_Diary_GuideBuilder-1.1.1.zip",
+        "size": 42991,
+        "url": "https://github.com/NolvusMadeIt/Warchiefs_Diary_GuideBuilder/releases/download/v1.1.1/Warchiefs_War_Diary_GuideBuilder-1.1.1.zip",
+        "folders": [
+          "Warchiefs_War_Diary_GuideBuilder"
+        ],
+        "mainFolder": "Warchiefs_War_Diary_GuideBuilder",
+        "tocVersion": "1.1.1",
+        "interface": "120105",
+        "notes": "# Warchiefs War Diary - Guide Builder\n\n**Write, record and edit Community Guides in game.** Open with `/wwdbuild`; record a route while you quest with `/wwdrec`.\n\n---\n\n## ✦ What's New in 1.1.1\n- Release build of the in-game guide editor and route recorder.\n\n## ✦ Editor\n- Opens inside the War Diary window under Community Guides, from the **New guide** row, from **Edit** on any imported guide, or with `/wwdbuild` (`/wwdbuild new` starts a blank guide).\n- Build guides from steps and chapters, with about 30 step types (accept, complete, turn in, go to, talk to, kill, loot, use item, fly, hearth, portal, scenario, treasure and more), quest IDs, coordinates and icons.\n- Undo and redo, a gap check, guide merging, versioned saves, and export and import.\n\n## ✦ Route recorder\n- `/wwdrec` records steps while you quest. Every recorded step is a normal editor step you can edit, move or delete.\n- Commands: `/wwdrec start`, `stop`, `button` (floating record button), `note <text>`, `here` (add a waypoint), `item <id>`, `edit`.\n- It only listens for events while recording.\n\n## Slash commands\n| Command | Action |\n|---|---|\n| `/wwdbuild` | Open Guide Builder |\n| `/wwdbuild new` | Start a blank guide |\n| `/wwdrec` | Route recorder (start / stop / button / note / here / item / edit) |\n\n## Requirements\n- **Warchiefs War Diary** (the main addon) is **required**.\n- **Warchiefs War Diary - Community Guides** is **required**.\n- Keeping this plugin and War Diary updated requires the **Warchief Launcher**: **[Download Warchief Launcher](https://github.com/NolvusMadeIt/Warchief_Launcher/releases/download/v2.0.0/Warchief-Launcher-Setup.exe)**\n- Retail World of Warcraft (Interface 120105).\n\n## Installing\nExtract the folder into `World of Warcraft\\_retail_\\Interface\\AddOns\\` and restart the game fully.\r\n"
+      },
+      "access": "testers"
     }
   ],
   "access": {
