@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-28T00:09:21.127Z",
+  "publishedAt": "2026-10-28T01:23:33.433Z",
   "launcher": {
     "version": "0.2.0"
   },
@@ -30,6 +30,14 @@
     "github": "https://github.com/NolvusMadeIt"
   },
   "news": [
+    {
+      "id": "n-new-v2-1-0-launcher-released",
+      "title": "New v2.1.0 Launcher Released",
+      "body": "![v2.1.0](https://i.imgur.com/dGZD5HC.png) \n\n**W**ith the new launcher set, there are some nice and QoL features added.\n\n- New themes added to change the theme to your favorite game expansion colors\n- You can now listen to your favorite Spotify music while gaming with a detachable interface or... attached\n- More QoL hidden within this new version of launcher\n\n\n**B**e sure to show your support and head on over to the discord server and express your opinions and ideas to help shape this new project!",
+      "linkLabel": "",
+      "link": "none",
+      "date": "2026-10-28T01:23:24.848Z"
+    },
     {
       "id": "n1",
       "title": "Warchief Testers Wanted",
@@ -246,28 +254,60 @@
         "name": "In Testing",
         "emoji": "🔧",
         "color": "yellow",
-        "cards": []
+        "cards": [
+          {
+            "id": "kmvrf3pt0v5cy",
+            "title": "Warchief Launcher 0.2.0",
+            "text": "Testing current 0.2.0 before next version release",
+            "addon": "",
+            "at": "2026-10-28T01:11:04.384Z"
+          }
+        ]
       },
       {
         "id": "c-progress",
         "name": "In Progress",
         "emoji": "🚧",
         "color": "orange",
-        "cards": []
+        "cards": [
+          {
+            "id": "kmvrf1ycxc7cy",
+            "title": "Spotify Player",
+            "text": "Adding some tunes with featured playlist put together by TankyShrimp, ex EMC known as DJ Mtechnik",
+            "addon": "",
+            "at": "2026-10-28T01:09:45.138Z"
+          }
+        ]
       },
       {
         "id": "c-planned",
         "name": "Planned",
         "emoji": "📋",
         "color": "blue",
-        "cards": []
+        "cards": [
+          {
+            "id": "kmvrezczy6zl9",
+            "title": "Discord Buttons (Launcher)",
+            "text": "\"Join the Discord\" button on the news should soft-launch Discord instead of loading through the web browser",
+            "addon": "",
+            "at": "2026-10-28T01:08:40.566Z"
+          }
+        ]
       },
       {
         "id": "c-release",
         "name": "Release",
         "emoji": "🚀",
         "color": "green",
-        "cards": []
+        "cards": [
+          {
+            "id": "kmvrf7dipq22u",
+            "title": "Warchief Launcher v2.0.1",
+            "text": "Warchief Launcher - https://github.com/NolvusMadeIt/Warchief_Launcher/releases/tag/v2.0.1",
+            "addon": "",
+            "at": "2026-10-28T01:13:34.404Z"
+          }
+        ]
       }
     ]
   }
