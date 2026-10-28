@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-27T06:54:42.118Z",
+  "publishedAt": "2026-10-28T00:09:21.127Z",
   "launcher": {
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "games": [
     {
@@ -238,5 +238,37 @@
       "description": "Press a button below to open a private ticket with the Warchief team."
     }
   },
-  "todo": []
+  "roadmap": {
+    "title": "Development Roadmap",
+    "columns": [
+      {
+        "id": "c-testing",
+        "name": "In Testing",
+        "emoji": "🔧",
+        "color": "yellow",
+        "cards": []
+      },
+      {
+        "id": "c-progress",
+        "name": "In Progress",
+        "emoji": "🚧",
+        "color": "orange",
+        "cards": []
+      },
+      {
+        "id": "c-planned",
+        "name": "Planned",
+        "emoji": "📋",
+        "color": "blue",
+        "cards": []
+      },
+      {
+        "id": "c-release",
+        "name": "Release",
+        "emoji": "🚀",
+        "color": "green",
+        "cards": []
+      }
+    ]
+  }
 }
