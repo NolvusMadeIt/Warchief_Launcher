@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-28T10:10:04.499Z",
+  "publishedAt": "2026-11-03T00:49:37.543Z",
   "launcher": {
     "version": "2.1.0"
   },
@@ -30,6 +30,14 @@
     "github": "https://github.com/NolvusMadeIt"
   },
   "news": [
+    {
+      "id": "n-new-v2-2-0-launcher-release-on-the-way-s",
+      "title": "New v2.2.0 Launcher Release on the Way Soon!",
+      "body": "Hi guys, I have been running around between work and recreating several new features and a couple of brand new plugins as well. I just wanted to inform you all that a new version is on the way very soon and i think this version, youll like even more. \n\n[![New v2.2.0 Launcher](https://i.imgur.com/rZDUQ3R.png)](https://i.imgur.com/rZDUQ3R.png)                                                                                       and\n\n[![New v2.2.0 Launcher](https://i.imgur.com/ISIM9A4.png)](https://i.imgur.com/ISIM9A4.png) \n\n\nv2.2.0 comes with significant upgrades and changes, some things will be gone, sad but not sad...\n\nStick around for the new Studio Writer and Recorder too which are 2 brand new plugins for those who loves to write their own guides that you can also import, export and share with friends!\n\nI cant wait for this release. Be sure to follow the discord server as there are no other requirements besides being a member.\n\nFew things to talk about and are open to ideas too are:\n\n- Repair Reminder plugin\n- Compass plugin\n- Yet, another To-Do List plugin\n- Gear plugin\n- Warchiefs Rotations\n\nRight now, Im looking for 3 things that will be a big help:\n\n- Level Guide writers\n- Plugin Developers and\n- WWD General Testers\n\n\nAs always, I do appreciate everyone that's trying out our addon, plugins and launcher as well. Please dont forget to keep your addon and plugins updated with the Launcher.",
+      "linkLabel": "Join the Community!",
+      "link": "discord",
+      "date": "2026-11-03T00:47:50.335Z"
+    },
     {
       "id": "n-new-v2-1-0-launcher-released",
       "title": "New v2.1.0 Launcher Released",
